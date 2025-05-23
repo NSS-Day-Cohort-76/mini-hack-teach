@@ -20,3 +20,8 @@ export const getAllCourses = () => {
     res.json()
   );
 };
+export const getCoursesByUserId = (userId) => {
+  return fetch(`http://localhost:8088/courses/?userId=${userId}`).then((res) =>
+    res.json()
+  );
+};

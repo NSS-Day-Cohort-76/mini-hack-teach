@@ -1,6 +1,6 @@
 import { useState } from "react"
-import { addCourse } from "../Services/CourseService"
 import { useNavigate } from "react-router-dom"
+import { addCourse } from "../../Services/CourseService.jsx"
 
 export const CourseForm = ({currentUser}) => {
     const [newCourse, setNewCourse] = useState({name: "", description: "", price: 0, coursePicture: "", userId: 0, lang: "", rating: 0})

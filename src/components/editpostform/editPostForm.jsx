@@ -44,7 +44,7 @@ export const EditPostForm = (currentUser) => {
       rating: rating,
       lastUpdated: new Date().toString().slice(0, 10),
     };
-    EditCourse(courseId, courseObj).then(navigate("/coacheslist"));
+    EditCourse(courseId, courseObj).then(navigate("/coaches-list"));
   };
 
   return (

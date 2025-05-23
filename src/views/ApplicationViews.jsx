@@ -2,9 +2,12 @@ import { Outlet, Route, Routes } from "react-router-dom";
 import { NavBar } from "../components/nav/NavBar.jsx";
 import { Welcome } from "../components/welcome/Welcome.jsx";
 import { useEffect, useState } from "react";
-import { CourseList } from "../components/courses/courseList.jsx";
+import { CourseList } from "../components/courses/CourseList.jsx";
 // import { CourseDetails } from "../components/courses/courseDetails.jsx";
 import { EditPostForm } from "../components/editpostform/editPostForm.jsx";
+import { CourseForm } from "../components/courses/CourseForm.jsx"
+import { YourCourses } from "../components/courses/YourCourses.jsx";
+
 
 export const ApplicationViews = () => {
   const [currentUser, setCurrentUser] = useState({});
@@ -32,16 +35,22 @@ export const ApplicationViews = () => {
           path="course-list"
           element={<CourseList currentUser={currentUser} />}
         >
-          {/* <Route
-            path="coursedetails/:id"
-            element={<CourseDetails currentUser={currentUser} />}
-          /> */}
+          <Route
+            path="course-details/:courseId"
+            // element={<CourseDetails currentUser={currentUser} />}
+          />
         </Route>
-        <Route path="new-post" />
+        <Route path="new-post" element={< CourseForm currentUser={currentUser} />} />
+
+        <Route 
+        path="coaches-list" 
+        element={<YourCourses currentUser={currentUser} />} 
+        >
         <Route
-          path="edit-post"
+          path="edit-post/:courseId"
           element={<EditPostForm currentUser={currentUser} />}
         />
+        </Route>
       </Route>
     </Routes>
   );
