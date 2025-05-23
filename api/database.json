@@ -1,0 +1,193 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Alice Smith",
+      "email": "alice@company.com",
+      "isStaff": true,
+      "profilePicture": "alice.jpg"
+    },
+    {
+      "id": 2,
+      "fullName": "Bob Johnson",
+      "email": "bob@company.com",
+      "isStaff": true,
+      "profilePicture": "bob.jpg"
+    },
+    {
+      "id": 3,
+      "fullName": "Carol Lee",
+      "email": "carol@company.com",
+      "isStaff": true,
+      "profilePicture": "carol.jpg"
+    },
+    {
+      "id": 4,
+      "fullName": "David Kim",
+      "email": "david@company.com",
+      "isStaff": true,
+      "profilePicture": "david.jpg"
+    },
+    {
+      "id": 5,
+      "fullName": "Eve Turner",
+      "email": "eve@company.com",
+      "isStaff": true,
+      "profilePicture": "eve.jpg"
+    },
+    {
+      "id": 6,
+      "fullName": "Frank Moore",
+      "email": "frank@gmail.com",
+      "isStaff": false,
+      "profilePicture": "frank.jpg"
+    },
+    {
+      "id": 7,
+      "fullName": "Grace Hall",
+      "email": "grace@gmail.com",
+      "isStaff": false,
+      "profilePicture": "grace.jpg"
+    },
+    {
+      "id": 8,
+      "fullName": "Henry Young",
+      "email": "henry@gmail.com",
+      "isStaff": false,
+      "profilePicture": "henry.jpg"
+    },
+    {
+      "id": 9,
+      "fullName": "Ivy King",
+      "email": "ivy@gmail.com",
+      "isStaff": false,
+      "profilePicture": "ivy.jpg"
+    },
+    {
+      "id": 10,
+      "fullName": "Jack Wright",
+      "email": "jack@gmail.com",
+      "isStaff": false,
+      "profilePicture": "jack.jpg"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "JavaScript Basics",
+      "description": "Intro to JavaScript",
+      "price": 49.99,
+      "coursePicture": "js.jpg",
+      "userId": 1,
+      "lastUpdated": "2025-05-01",
+      "lang": "JavaScript",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Advanced Python",
+      "description": "Deep dive into Python",
+      "price": 59.99,
+      "coursePicture": "python.jpg",
+      "userId": 2,
+      "lastUpdated": "2025-05-02",
+      "lang": "Python",
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "name": "Java for Beginners",
+      "description": "Start coding in Java",
+      "price": 39.99,
+      "coursePicture": "java.jpg",
+      "userId": 3,
+      "lastUpdated": "2025-05-03",
+      "lang": "Java",
+      "rating": 4.3
+    },
+    {
+      "id": 4,
+      "name": "C# Fundamentals",
+      "description": "Learn C# from scratch",
+      "price": 44.99,
+      "coursePicture": "csharp.jpg",
+      "userId": 4,
+      "lastUpdated": "2025-05-04",
+      "lang": "C#",
+      "rating": 4.4
+    },
+    {
+      "id": 5,
+      "name": "Ruby on Rails",
+      "description": "Web dev with Ruby",
+      "price": 54.99,
+      "coursePicture": "ruby.jpg",
+      "userId": 5,
+      "lastUpdated": "2025-05-05",
+      "lang": "Ruby",
+      "rating": 4.2
+    },
+    {
+      "id": 6,
+      "name": "Go Programming",
+      "description": "Get started with Go",
+      "price": 42.99,
+      "coursePicture": "go.jpg",
+      "userId": 1,
+      "lastUpdated": "2025-05-06",
+      "lang": "Go",
+      "rating": 4.1
+    },
+    {
+      "id": 7,
+      "name": "PHP Essentials",
+      "description": "PHP for web development",
+      "price": 34.99,
+      "coursePicture": "php.jpg",
+      "userId": 2,
+      "lastUpdated": "2025-05-07",
+      "lang": "PHP",
+      "rating": 4.0
+    },
+    {
+      "id": 8,
+      "name": "Swift for iOS",
+      "description": "iOS app dev with Swift",
+      "price": 64.99,
+      "coursePicture": "swift.jpg",
+      "userId": 3,
+      "lastUpdated": "2025-05-08",
+      "lang": "Swift",
+      "rating": 4.6
+    },
+    {
+      "id": 9,
+      "name": "Kotlin Crash Course",
+      "description": "Android dev with Kotlin",
+      "price": 59.99,
+      "coursePicture": "kotlin.jpg",
+      "userId": 4,
+      "lastUpdated": "2025-05-09",
+      "lang": "Kotlin",
+      "rating": 4.3
+    },
+    {
+      "id": 10,
+      "name": "TypeScript in Depth",
+      "description": "Advanced TypeScript",
+      "price": 55.99,
+      "coursePicture": "typescript.jpg",
+      "userId": 5,
+      "lastUpdated": "2025-05-10",
+      "lang": "TypeScript",
+      "rating": 4.5
+    }
+  ],
+  "carts": [
+    { "id": 1, "courseId": 1, "userId": 6, "totalCost": 49.99 },
+    { "id": 2, "courseId": 2, "userId": 7, "totalCost": 59.99 },
+    { "id": 3, "courseId": 3, "userId": 8, "totalCost": 39.99 },
+    { "id": 4, "courseId": 4, "userId": 9, "totalCost": 44.99 },
+    { "id": 5, "courseId": 5, "userId": 10, "totalCost": 54.99 }
+  ]
+}
