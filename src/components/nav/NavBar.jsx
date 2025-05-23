@@ -7,13 +7,16 @@ export const NavBar = () => {
   return (
     <ul className="navbar">
       <li className="navbar-item">
-        <Link to="/tickets">Tickets</Link>
+        <Link to="/">Home</Link>
       </li>
       <li className="navbar-item">
-        <Link to="/customers">Customers</Link>
+        <Link to="/course-list">Courses Offered</Link>
       </li>
       <li className="navbar-item">
-        <Link to="/employees">Employees</Link>
+        <Link to="/new-post">Create New Course Profile</Link>
+      </li>
+      <li className="navbar-item ">
+        <Link to="/coaches-list">Your Courses</Link>
       </li>
       {localStorage.getItem("l2code_user") ? (
         <li className="navbar-item navbar-logout">
