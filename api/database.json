@@ -80,7 +80,7 @@
       "coursePicture": "js.jpg",
       "userId": 1,
       "lastUpdated": "2025-05-01",
-      "lang": "JavaScript",
+      "languageId": 1,
       "rating": 4.5
     },
     {
@@ -91,7 +91,7 @@
       "coursePicture": "python.jpg",
       "userId": 2,
       "lastUpdated": "2025-05-02",
-      "lang": "Python",
+      "languageId": 2,
       "rating": 4.7
     },
     {
@@ -102,7 +102,7 @@
       "coursePicture": "java.jpg",
       "userId": 3,
       "lastUpdated": "2025-05-03",
-      "lang": "Java",
+      "languageId": 3,
       "rating": 4.3
     },
     {
@@ -113,7 +113,7 @@
       "coursePicture": "csharp.jpg",
       "userId": 4,
       "lastUpdated": "2025-05-04",
-      "lang": "C#",
+      "languageId": 4,
       "rating": 4.4
     },
     {
@@ -124,7 +124,7 @@
       "coursePicture": "ruby.jpg",
       "userId": 5,
       "lastUpdated": "2025-05-05",
-      "lang": "Ruby",
+      "languageId": 5,
       "rating": 4.2
     },
     {
@@ -135,7 +135,7 @@
       "coursePicture": "go.jpg",
       "userId": 1,
       "lastUpdated": "2025-05-06",
-      "lang": "Go",
+      "languageId": 6,
       "rating": 4.1
     },
     {
@@ -146,7 +146,7 @@
       "coursePicture": "php.jpg",
       "userId": 2,
       "lastUpdated": "2025-05-07",
-      "lang": "PHP",
+      "languageId": 7,
       "rating": 4.0
     },
     {
@@ -157,7 +157,7 @@
       "coursePicture": "swift.jpg",
       "userId": 3,
       "lastUpdated": "2025-05-08",
-      "lang": "Swift",
+      "languageId": 8,
       "rating": 4.6
     },
     {
@@ -168,7 +168,7 @@
       "coursePicture": "kotlin.jpg",
       "userId": 4,
       "lastUpdated": "2025-05-09",
-      "lang": "Kotlin",
+      "languageId": 9,
       "rating": 4.3
     },
     {
@@ -179,7 +179,7 @@
       "coursePicture": "typescript.jpg",
       "userId": 5,
       "lastUpdated": "2025-05-10",
-      "lang": "TypeScript",
+      "languageId": 10,
       "rating": 4.5
     }
   ],
@@ -189,5 +189,47 @@
     { "id": 3, "courseId": 3, "userId": 8, "totalCost": 39.99 },
     { "id": 4, "courseId": 4, "userId": 9, "totalCost": 44.99 },
     { "id": 5, "courseId": 5, "userId": 10, "totalCost": 54.99 }
+  ],
+  "languages": [
+    {
+      "id": 1,
+      "lang": "Javascript"
+    },
+    {
+      "id": 2,
+      "lang": "Python"
+    },
+    {
+      "id": 3,
+      "lang": "Java"
+    },
+    {
+      "id": 4,
+      "lang": "C#"
+    },
+    {
+      "id": 5,
+      "lang": "Ruby"
+    },
+    {
+      "id": 6,
+      "lang": "Go"
+    },
+    {
+      "id": 7,
+      "lang": "PHP"
+    },
+    {
+      "id": 8,
+      "lang": "Swift"
+    },
+    {
+      "id": 9,
+      "lang": "Kotlin"
+    },
+    {
+      "id": 10,
+      "lang": "TypeScript"
+    }
   ]
 }
