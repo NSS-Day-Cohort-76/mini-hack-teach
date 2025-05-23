@@ -1,0 +1,30 @@
+table users {
+    id int
+    fullName varchar
+    email varchar
+    isStaff boolean
+    profilePicture varchar
+}
+
+table courses {
+    id int
+    name varchar
+    description varchar
+    price decimal
+    coursePicture varchar
+    userId int
+    lastUpdated date
+    lang varchar
+    rating decimal
+}
+
+table carts {
+    id int
+    courseId int
+    userId int
+    totalCost decimal
+}
+
+Ref: "users"."id" < "courses"."userId"
+Ref: "users"."id" < "carts"."userId"
+Ref: "courses"."id" < "carts"."courseId"
