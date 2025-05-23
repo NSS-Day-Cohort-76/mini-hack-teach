@@ -5,7 +5,7 @@ import { getUserByEmail } from "../../Services/userService.jsx";
 import "./Login.css";
 
 export const Login = () => {
-  const [email, set] = useState("");
+  const [email, set] = useState("alice@company.com");
   const navigate = useNavigate();
 
   const handleLogin = (e) => {
@@ -33,7 +33,7 @@ export const Login = () => {
     <main className="container-login">
       <section>
         <form className="form-login" onSubmit={handleLogin}>
-          <h1>Honey Rae Repairs</h1>
+          <h1>L2 Code</h1>
           <h2>Please sign in</h2>
           <fieldset>
             <div className="form-group">

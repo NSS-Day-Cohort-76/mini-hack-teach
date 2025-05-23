@@ -25,5 +25,15 @@
 }
 
 .navbar-link:hover {
-  color: var(--primary);
+  color: white
+}
+
+li {
+  color: white;
+}
+
+li.navbar-item {
+  margin: 5%;
+  color: white; 
+
 }
