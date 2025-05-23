@@ -13,3 +13,10 @@ export const createUser = (customer) => {
     body: JSON.stringify(customer),
   }).then((res) => res.json());
 };
+
+
+export const getAllCourses = () => {
+  return fetch(`http://localhost:8088/courses`).then((res) =>
+    res.json()
+  );
+};

@@ -50,7 +50,7 @@ export const EditPostForm = (currentUser) => {
   return (
     <section className="editpost-container">
       <div>
-        <header>Edit Couse Info</header>
+        <header>Edit Course Info</header>
         <form onSubmit={handleEditSubmit}>
           <label>Edit Name</label>
           <input

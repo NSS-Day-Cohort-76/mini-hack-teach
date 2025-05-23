@@ -3,7 +3,7 @@ import { NavBar } from "../components/nav/NavBar.jsx";
 import { Welcome } from "../components/welcome/Welcome.jsx";
 import { useEffect, useState } from "react";
 import { CourseList } from "../components/courses/courseList.jsx";
-import { CourseDetails } from "../components/courses/courseDetails.jsx";
+// import { CourseDetails } from "../components/courses/courseDetails.jsx";
 import { EditPostForm } from "../components/editpostform/editPostForm.jsx";
 
 export const ApplicationViews = () => {
@@ -32,10 +32,10 @@ export const ApplicationViews = () => {
           path="course-list"
           element={<CourseList currentUser={currentUser} />}
         >
-          <Route
+          {/* <Route
             path="coursedetails/:id"
             element={<CourseDetails currentUser={currentUser} />}
-          />
+          /> */}
         </Route>
         <Route path="new-post" />
         <Route
